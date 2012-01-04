@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := Transformer
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/asus/tf101/full_tf101.mk)
+$(call inherit-product, device/asus/tf101/device_tf101.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tf101
